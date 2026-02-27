@@ -1,0 +1,112 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap'); 
+@font-face{
+    font-family: 'Fontetitulo';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+body{
+    background-color:#d5eafc; 
+    margin: 0px;
+}
+header{
+    padding: 4px;
+    background-image: linear-gradient(to bottom,#4b9afb,#1736ff);
+    font-family: 'Google Sans', sans-serif; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.404);
+    
+
+}
+h2{
+    font-family: 'Fontetitulo', sans-serif; 
+    color: blue;
+}
+h3{
+    font-family: 'Fontetitulo', sans-serif; 
+    color: blue; 
+    padding: 5px 100px 5px 15px; 
+    background-image: linear-gradient(to right, rgb(200, 200, 255), white); 
+    
+}
+header h1{
+    color: white;
+    text-align: center; 
+}
+header p{
+    color: white;
+    text-align: center;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px; 
+    border-radius: 8px; 
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out; 
+    display: inline-block; 
+} 
+header nav a:hover{
+    background-color: #0022ff;
+}
+main{
+    background: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: #0021F5;
+    color: white;
+}
+.imagem_adaptavel{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+} 
+.video_you{
+    background-color: blue;
+    padding: 20px;
+    margin: 20px -10px; 
+    text-align: center;
+}
+.video_you iframe{
+    width: 100%; 
+    max-width: 800px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    border: none; 
+}
+#tituloquatro{
+    background-color: rgb(88, 88, 255);
+    background-image: none; 
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0; 
+    margin: 0px;
+    color: white;
+}
+aside{
+    background-color: rgb(199, 199, 255);
+    padding: 0px 0px 15px 0px; 
+    border-radius: 10px 10px 10px 10px; 
+    margin: 20px 0px; 
+    overflow: hidden; 
+} 
+aside > p, aside > ul{
+    padding: 10px 20px;
+}
+aside > ul{
+    columns: 2; 
+}
+a{
+    color: rgb(0, 0, 255); 
+    text-decoration: none; 
+} 
+.link{
+    color: blue; 
+    background-color: rgb(208, 208, 255);
+    font-weight: bold;
+    padding: 2px;
+}

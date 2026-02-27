@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho da minha imagem</title> 
+
+</head>
+<body>
+    <h1>Tamanho da minha imagem</h1> 
+    <p>você verá o tamanho da minha foto de diferentes formas, de acordo com o tamanho do seu navegador. Experimente!</p> 
+    <picture>
+        <source media="(max-width: 400px)" srcset="imagens/tiago-p.png" type="image/png"> 
+        <source media="(max-width: 1050px)" srcset="imagens/tiago-m.png" type="image/png"> 
+        <img src="imagens/tiago-g.png" alt="Tamanho da minha foto"> 
+    </picture>
+</body>
+</html>

@@ -1,0 +1,17 @@
+div{
+    display: inline-block;
+    background-color: burlywood;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    }
+div#d1:hover{
+        background-color: yellow;
+        }
+div#d2:hover{
+        background-color: blue; 
+        }
+div#d3:hover{
+            background-color: red;
+        }
